@@ -28,7 +28,23 @@ closeModalBtn.onclick = (e) => {
 		visibility: 'hidden'
 	})
 };
+const audio = document.getElementById('audio')
+const audioBtn = document.querySelector('.audio-btn');
+const audioPlayIcon = document.querySelector('.audio-play')
+const audioPauseIcon = document.querySelector('.audio-pause')
 
-window.onload = e => {
-	document.getElementById('audio').play();
+let isPlaying = false;
+
+audioBtn.onclick = e => {
+	if(isPlaying) {
+		audio.pause()
+	}else{
+		audio.play()
+	}
+	isPlaying = !isPlaying
+	if(isPlaying) {
+		audioBtn.classList.add('playing')
+	}else{
+		audioBtn.classList.remove('playing')
+	}
 }

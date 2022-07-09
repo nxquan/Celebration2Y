@@ -215,6 +215,27 @@ body {
     margin-right: 28px;
 }
 
+.audio-btn {
+    position: fixed;
+    bottom: 24px;
+    right:24px;
+    width:32px;
+    height:32px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.06);
+}
+.audio-btn .audio-play,
+.audio-btn.playing .audio-pause  {
+    display: none;
+}
+.audio-btn.playing .audio-play{
+    display: block;
+}
+
+.audio-btn:hover {
+    cursor: pointer;
+}
 .audio-wrapper {
     display: none;
 }

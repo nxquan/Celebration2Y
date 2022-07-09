@@ -1,4 +1,7 @@
 @media (max-width: 739px) {
+    body {
+        user-zoom:unset;
+    }
     .modal-img {
         position: absolute;
         display: block;
