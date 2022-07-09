@@ -1,0 +1,47 @@
+@media (max-width: 739px) {
+    .modal-img {
+        position: absolute;
+        display: block;
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        object-fit: cover;
+    }
+    
+    .wrapper {
+        padding: 0 16px;
+    }
+    .header {
+        text-align: center;
+    }
+    .header__title {
+        font-size: 1.6rem;
+    }
+
+    .header__des {
+        font-size: 1.4rem;
+    }
+    .couple {
+        display: flex;
+        align-items: center;
+    }
+    .infor__title {
+        font-size: 1.2rem;
+    }
+    .couple-img {
+        width: 100px;
+    }
+    .infor__body,
+    .phase-des {
+        font-size: 1rem;
+    }
+
+    .c-mt-12 {
+        margin-top: 12px;
+    }
+    .c-mb-12 {
+        margin-bottom: 12px;
+    }
+}
+
