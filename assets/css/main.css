@@ -194,7 +194,7 @@ body {
 	padding-bottom: 40px;
 }
 .letter-heart {
-	padding: 12px;
+	padding: 12px 24px;
 	border: 2px solid pink;
 	border-radius: 10px;
 }
